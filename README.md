@@ -19,6 +19,19 @@ The resulting methodology supports review of authentication and account-recovery
 | Data quality | Duplicate control, provenance, contradiction and correction logs |
 | Technical reporting | Explicit findings, limitations, alternative explanations |
 
+## ▶ Try the working demonstration
+
+**[Open the Python demo](demo/README.md)** · [Inspect the script](demo/analyze.py) · [View synthetic events](demo/events.csv) · [Review tests](demo/test_analyze.py)
+
+This small, standard-library Python example validates fictional events, normalizes timezone-aware timestamps, and identifies same-account event pairs within 15 minutes. Its expected output is **4 events and 3 candidate pairs**, with explicit limitations on device and operator attribution.
+
+```bash
+python demo/analyze.py
+python -m unittest discover -s demo -v
+```
+
+**Verification status:** Code and tests committed; automated execution results have not yet been independently confirmed. This is a teaching demonstration, not a deployed forensic platform.
+
 ## Read the documentation
 - [Investigation methodology](docs/investigation-methodology.md)
 - [Workbook architecture](docs/workbook-architecture.md)
@@ -50,7 +63,7 @@ The portfolio prioritizes **2024 account recovery, authentication, device regist
 ## What is built vs planned
 **Documented:** An independently developed research methodology, a workbook-based analytical approach, and four synthetic case-study designs.
 
-**Next:** A fabricated workbook with sample events, reproducible analysis scripts, tests, and visualizations.
+**Implemented as an initial demonstration:** Synthetic CSV events, a Python correlation script, and unit tests (execution verification pending). **Next:** A fabricated workbook, independently verified test results, and visualizations.
 
 **Not claimed:** Professional forensic certification, forensic acquisition of devices, verified chain of custody, a completed dashboard, proof of compromise, or confirmed actor attribution.
 
