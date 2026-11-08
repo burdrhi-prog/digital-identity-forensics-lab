@@ -1,0 +1,5 @@
+event_id,timestamp,account,client_id,event_type,source_ref
+EV-001,2024-05-14T10:02:00Z,acct-demo,client-alpha,authentication_success,SYN-001
+EV-002,2024-05-14T10:07:00Z,acct-demo,client-beta,recovery_method_change,SYN-002
+EV-003,2024-05-14T10:11:00Z,acct-demo,client-beta,session_registered,SYN-003
+EV-004,2024-05-14T11:45:00Z,acct-other,client-gamma,authentication_success,SYN-004
