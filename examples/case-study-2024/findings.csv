@@ -1,0 +1,4 @@
+finding_id,left_event,right_event,delta_minutes,observation,interpretation,status,missing_verification
+CF-001,F-001,F-002,5,Different logical clients on same account within 5 minutes,Temporal correlation only,review_required,Independent confirmation of session context
+CF-002,F-001,F-003,9,Different logical clients on same account within 9 minutes,Temporal correlation only,review_required,Independent confirmation of session context
+CF-003,F-002,F-003,4,Same logical client across recovery and session events,Temporal correlation only,review_required,Provider event semantics
