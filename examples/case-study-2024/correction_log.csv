@@ -1,0 +1,2 @@
+correction_id,event_id,field,previous_value,corrected_value,reason,source_ref,status
+C-001,F-001,utc_timestamp,2024-05-14T03:02:00Z,2024-05-14T10:02:00Z,Original time used local offset -07:00; corrected to UTC,ART-001:row-2,documented_synthetic_example
