@@ -1,0 +1,3 @@
+artifact_id,provider,filename_alias,record_type,preservation_status,integrity_note
+ART-001,identity-alpha,fictional_export_alpha.csv,authentication_export,synthetic,Created for portfolio; no real records
+ART-002,identity-beta,fictional_export_beta.csv,recovery_and_sessions,synthetic,Created for portfolio; no real records
