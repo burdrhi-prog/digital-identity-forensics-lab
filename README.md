@@ -91,3 +91,21 @@ Expected: **4 fictional events, 2 fictional source artifacts, 3 candidate correl
 ### Professional positioning
 
 This work showcases independent evidence organization, structured investigative questions, data-quality controls, correction tracking, cross-provider correlation, and careful documentation. Python and automation are developing skills supported by AI-assisted implementation and review. It does **not** claim professional forensic certification, independent software-engineering experience, or verified real-world attribution.
+
+## Shareable workbook and PDF report
+
+A six-sheet fictional Excel workbook and a polished PDF case-study report have been generated as downloadable portfolio artifacts. The workbook contains the same synthetic CSV records as this repository, with a START HERE guide, Master Timeline, Evidence Index, Identifier Crosswalk, Correlation Findings, and Corrections Log.
+
+The PDF is reproducible from the repository source data:
+
+```bash
+python -m pip install -r requirements-report.txt
+python demo/publish_report.py --output fictional_case_report.pdf
+python -m unittest discover -s demo -v
+```
+
+The Excel file is currently distributed separately as a downloadable demonstration artifact; **it has not been committed to this repository**. The five source CSV tables remain inspectable here.
+
+## Demonstrate your skills
+
+See the [hands-on skills demonstration](docs/skills-demonstration.md) for four short exercises covering evidence provenance, timestamp correction, correlation limits, and testing. The checklist is deliberately unmarked until the author personally completes each exercise. Python/report automation is AI-assisted and remains a developing skill.
