@@ -30,7 +30,7 @@ python demo/analyze.py
 python -m unittest discover -s demo -v
 ```
 
-**Verification status:** Code and tests committed; automated execution results have not yet been independently confirmed. This is a teaching demonstration, not a deployed forensic platform.
+**Verification status:** Initial demo and case-study code and tests are committed. GitHub Actions is configured; check the Actions tab for confirmed hosted results. This is a teaching demonstration, not a deployed forensic platform.
 
 ## Read the documentation
 - [Investigation methodology](docs/investigation-methodology.md)
@@ -76,3 +76,18 @@ This repository is designed for eventual public presentation. It excludes origin
 - [Identity Fairy](https://github.com/burdrhi-prog/identity-fairy) — privacy-aware consumer product concept.
 
 *Independent, self-directed technical research. Evidence first; attribution only when supported.*
+
+## New: reproducible fictional 2024 case study
+
+The [fictional 2024 case study](docs/fictional-2024-case-study.md) now has five inspectable CSV source tables: events, evidence index, identifier crosswalk, correction log, and candidate findings. It demonstrates source-pointer validation, UTC normalization, same-account correlation, and preserving a documented correction.
+
+```bash
+python demo/case_study_report.py
+python -m unittest discover -s demo -v
+```
+
+Expected: **4 fictional events, 2 fictional source artifacts, 3 candidate correlations**. The case-study report is generated from the CSV data rather than manually claimed results. [GitHub Actions](.github/workflows/tests.yml) is configured to test the demonstrations on each push. Hosted test results should be checked in the Actions tab.
+
+### Professional positioning
+
+This work showcases independent evidence organization, structured investigative questions, data-quality controls, correction tracking, cross-provider correlation, and careful documentation. Python and automation are developing skills supported by AI-assisted implementation and review. It does **not** claim professional forensic certification, independent software-engineering experience, or verified real-world attribution.
