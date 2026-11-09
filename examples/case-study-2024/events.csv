@@ -1,0 +1,5 @@
+event_id,raw_timestamp,utc_timestamp,account_alias,provider,event_type,logical_client_alias,source_ref,authorization_status
+F-001,2024-05-14T03:02:00-07:00,2024-05-14T10:02:00Z,acct-demo,identity-alpha,authentication_success,client-A,ART-001:row-2,unknown
+F-002,2024-05-14T10:07:00Z,2024-05-14T10:07:00Z,acct-demo,identity-beta,recovery_method_change,client-B,ART-002:row-8,disputed
+F-003,2024-05-14T10:11:00Z,2024-05-14T10:11:00Z,acct-demo,identity-beta,session_registered,client-B,ART-002:row-9,unknown
+F-004,2024-05-14T11:45:00Z,2024-05-14T11:45:00Z,acct-other,identity-alpha,authentication_success,client-C,ART-001:row-7,unknown
