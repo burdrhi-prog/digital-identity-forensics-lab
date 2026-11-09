@@ -1,0 +1,5 @@
+identifier_id,namespace,value_alias,event_id,interpretation_boundary
+I-001,logical_client,client-A,F-001,Logical registration not a physical device
+I-002,logical_client,client-B,F-002,Logical registration not a physical device
+I-003,logical_client,client-B,F-003,Same alias does not establish operator
+I-004,logical_client,client-C,F-004,Separate account excluded from correlation
